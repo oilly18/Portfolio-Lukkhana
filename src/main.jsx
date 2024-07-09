@@ -9,6 +9,7 @@ import Project from './pages/Project/index.jsx';
 import Skills from './pages/Skills/index.jsx';
 import Home from './pages/Home/index.jsx';
 
+
 const router = createBrowserRouter([
   {
     path: "/",
