@@ -37,7 +37,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end font-bold">
-        <a className="btn" link={CV}>
+        <a className="text-white" link={CV}>
           Resume
         </a>
       </div>

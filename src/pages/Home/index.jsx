@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import CV from '../../assets/Lukkhana_Tipchainak_CV.pdf';
+import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -26,7 +28,7 @@ const Home = () => {
                       / QA
                     </div>
                   </div>
-                  <div className="mt-8 text-base tracking-wide leading-6 text-zinc-500 max-md:max-w-full">
+                  <div className="mt-8 text-base tracking-wide leading-6 text-zinc-700 max-md:max-w-full">
                     With over 14 years as a Credit Analyst, I bring strong
                     analytical thinking, problem-solving, and attention to detail
                     from the banking and finance sector. Recently, I’ve developed
@@ -37,9 +39,16 @@ const Home = () => {
                     knowledge to enhance software quality and performance in the
                     tech sector.
                   </div>
-                  <div>
-                      <div className="navbar-end font-bold ">
-                         <a className="btn bg-slate-300" href={CV}>Resume</a>
+                  <div className="flex gap-4 justify-start items-start mt-4">
+                      <div className="navbar-start font-bold flex gap-4 ">
+                         <a className="btn bg-slate-300 border-2 border-black" target="_blank" href={CV}>Resume</a>
+                         <div className="flex justify-start items-start p-4  h-12 border-black border-2 rounded hover:bg-slate-300">
+                            <a href="https://www.linkedin.com/in/lukkhanat1/" target="_blank" ><FaLinkedin />
+                            </a>
+                         </div>
+                         <div className="flex justify-start items-start p-4 h-12 rounded border-2 border-black border-solid hover:bg-slate-300">
+                             <a href="https://github.com/oilly18" target="_blank"><FaGithub /></a>
+                         </div>
                       </div>
                   </div>
                 </div>

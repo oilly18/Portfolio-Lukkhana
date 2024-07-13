@@ -11,11 +11,11 @@ const About = () => {
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-[46%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow pb-20 max-md:mt-10 max-md:max-w-full">
-              <div className="flex flex-col px-16 pt-10 rounded-xl border-4 border-black border-solid max-md:px-5 max-md:max-w-full">
+              <div className="flex flex-col px-16 pt-10 rounded-xl border-4 border-black border-solid max-md:px-5 max-md:max-w-full h-full">
                 <img
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/491ff0ca9e92e184cfb72f3052fa0f803bf38c615cf6390123b44c53a002115e?"
-                  className="z-10 mr-6 mb-0 ml-6 w-full aspect-[0.63] max-md:mx-2.5 max-md:mb-2.5"
+                  className="z-10 mr-6 mb-0 ml-20 w-3/5 aspect-[0.63] max-md:mx-2.5 max-md:mb-2.5 justify-center items-center"
                 />
               </div>
             </div>
@@ -28,28 +28,14 @@ const About = () => {
                   Me
                 </div>
               </div>
-              <div className="mt-5 max-md:max-w-full">
-                I'm a passionate, self-proclaimed designer who specializes in full
-                stack development (React.js & Node.js). I am very enthusiastic
-                about bringing the technical and visual aspects of digital
-                products to life. User experience, pixel perfect design, and
-                writing clear, readable, highly performant code matters to me.
+              <div className="mt-5 max-md:max-w-full text-lg">
+              I have more than 14 years of experience in finance and banking. I want to learn new things. Furthermore, I want to develop myself and follow my dream of wanting to work in the tech field. And then this passion made me step out of my comfort zone. Step out to learn and apply my experience working in the tech field.
               </div>
-              <div className="mt-5 max-md:max-w-full">
-                I began my journey as a web developer in 2015, and since then,
-                I've continued to grow and evolve as a developer, taking on new
-                challenges and learning the latest technologies along the way.
-                Now, in my early thirties, 7 years after starting my web
-                development journey, I'm building cutting-edge web applications
-                using modern technologies such as Next.js, TypeScript, Nestjs,
-                Tailwindcss, Supabase and much more.
+              <div className="mt-5 max-md:max-w-full text-lg">
+              In being able to join Generation's Bootcamp, I have learned many new things. I have developed myself in both hard and soft skills. And I think these things will help me work effectively in this line of work.
               </div>
-              <div className="mt-5 max-md:max-w-full">
-                When I'm not in full-on developer mode, you can find me hovering
-                around on twitter or on indie hacker, witnessing the journey of
-                early startups or enjoying some free time. You can follow me on
-                Twitter where I share tech-related bites and build in public, or
-                you can follow me on GitHub.
+              <div className="mt-5 max-md:max-w-full text-lg">
+              This has been a challenge in my 43-years-old life. And I'm ready for this challenge. My new journey has begun.
               </div>
             </div>
           </div>
