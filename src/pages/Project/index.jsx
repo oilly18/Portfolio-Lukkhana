@@ -16,16 +16,16 @@ const Project = () => {
           </div>
           <div className="py-5 mt-5w-full max-md:max-w-full">
             <div className="flex gap-5 max-md:flex-col max-md:gap-0 w-full">
-              <div className="flex flex-col w-6/12 h-full border border-white mt-10">
+              <div className="flex flex-col lg:w-6/12 md:w-4/12  h-full border border-white mt-10">
                 <a href="https://mutayloo.vercel.app/" target="_blank">
                   <img
                     src="/MutayLoo.png"
                     alt="mutayloo"
-                    className="w-full h-full"
+                    className="w-full h-full "
                   />
                 </a>
               </div>
-              <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+              <div className="flex flex-col ml-5 w-6/12 md:w-8/12 max-md:ml-0 max-md:w-full">
                 <div className="flex flex-col self-stretch my-auto text-white max-md:mt-10 max-md:max-w-full">
                   <div className="mt-7 text-3xl font-bold tracking-tighter max-md:max-w-full">
                     Mutayloo Project E-Commerce

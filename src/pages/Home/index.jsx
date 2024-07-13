@@ -11,16 +11,16 @@ const Home = () => {
         <Navbar/>
         <div className="flex justify-center items-center p-16 max-md:px-5">
           <div className="justify-between px-8 w-full max-w-screen-xl max-md:px-5 max-md:max-w-full">
-            <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+            <div className="flex gap-5 max-md:flex-col max-md:gap-0 md:flex-col md:justify-center md:items-center  md:overflow-ellipsis">
               <div className="flex flex-col w-[59%] max-md:ml-0 max-md:w-full">
-                <div className="flex flex-col mt-40 max-md:mt-10 max-md:max-w-full">
-                  <div className="flex gap-4 text-5xl tracking-tighter text-black leading-[56.16px] max-md:flex-wrap max-md:text-4xl">
+                <div className="flex flex-col mt-40 md:mt-10  max-md:mt-8 max-md:max-w-full">
+                  <div className="flex gap-4 text-5xl tracking-tighter text-black leading-[56.16px] max-md:flex-wrap md:flex-wrap max-md:text-4xl">
                     <div className="max-md:text-4xl">Hello I’am</div>
-                    <div className="font-extrabold max-md:max-w-full max-md:text-4xl">
+                    <div className="font-extrabold max-md:max-w-full max-md:text-4xl md:flex">
                       Lukkhana Tipchainak
                     </div>
                   </div>
-                  <div className="flex gap-4 self-start mt-5 text-5xl font-extrabold tracking-tighter leading-[56.16px] max-md:flex-wrap max-md:text-4xl">
+                  <div className="md:flex-none flex gap-4 self-start mt-5 text-5xl font-extrabold tracking-tighter leading-[56.16px] max-md:flex-wrap md:flex-wrap max-md:text-4xl">
                     <div className="text-black max-md:text-4xl">
                       Software Tester
                     </div>

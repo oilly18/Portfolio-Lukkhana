@@ -13,7 +13,7 @@ const Skills = () => {
             <div className="font-extrabold max-md:text-4xl">Skills</div>
           </div>
         </div>
-        <div className="flex gap-5 justify-between py-5 mt-10 font-bold text-center capitalize max-md:flex-wrap max-md:max-w-full">
+        <div className="md:grid md:grid-cols-3 lg:flex flex gap-5 justify-between py-5 mt-10 font-bold text-center capitalize max-md:flex-wrap max-md:max-w-full">
           <div className="flex flex-col justify-center p-6 bg-white rounded border-2 border-black border-solid h-[186px] w-[186px] max-md:px-5">
             <img
               loading="lazy"
@@ -54,8 +54,6 @@ const Skills = () => {
             />
             <div className="mt-8">Tailwind CSS</div>
           </div>
-        </div>
-        <div className="flex gap-5 justify-between py-5 font-bold text-center capitalize max-md:flex-wrap max-md:max-w-full">
           <div className="flex flex-col justify-center p-6 bg-white rounded border-2 border-black border-solid h-[186px] w-[186px] max-md:px-5">
             <img
               src="/sql-document-outlined-interface-symbol_icon-icons.com_57504.png"
@@ -64,6 +62,10 @@ const Skills = () => {
             />
             <div className="mt-8">SQL</div>
           </div>
+
+        </div>
+        <div className="md:grid md:grid-cols-3 lg:flex  flex gap-5 justify-between py-5 font-bold text-center capitalize max-md:flex-wrap max-md:max-w-full">
+          
           <div className="flex flex-col justify-center p-6 bg-white rounded border-2 border-black border-solid h-[186px] w-[186px] max-md:px-5">
             <img
               src="/prog-nodejs02_icon-icons.com_50780.png"
@@ -96,31 +98,35 @@ const Skills = () => {
             />
             <div className="mt-8">Figma</div>
           </div>
-        </div>
-        <div className="flex gap-28 justify-center py-5 font-bold text-center capitalize max-md:flex-wrap max-md:max-w-full">
-          <div className="mr-4 flex flex-col justify-center p-6 bg-white rounded border-2 border-black border-solid h-[186px] w-[186px] max-md:px-5">
+          <div className=" flex flex-col justify-start p-6 bg-white rounded border-2 border-black border-solid h-[186px] w-[186px] max-md:px-5">
             <img
               src="/trello-black_100143.png"
               alt="trello"
-              className="mt-4 w-4/5 h-4/5 pl-4"
+              className="mt-2 pl-4 w-4/5 h-4/5 "
             />
-            <div className="mt-8">Trello</div>
+            <div className="mt-2">Trello</div>
           </div>
-          <div className="mr-2 flex flex-col justify-center p-6 bg-white rounded border-2 border-black border-solid h-[186px] w-[186px] max-md:px-5">
+          <div className=" flex flex-col justify-start p-6 bg-white rounded border-2 border-black border-solid h-[186px] w-[186px] max-md:px-5">
             <img
               src="/postman_logo_icon_144970.png"
               alt="postman"
-              className="mt-4 w-4/5 h-4/5 pl-4"
+              className="mt-2 pl-4 w-4/5 h-4/5 "
             />
-            <div className="mt-8">Postman</div>
+            <div className="mt-2">Postman</div>
           </div>
-          <div className="flex flex-col justify-center p-6 bg-white rounded border-2 border-black border-solid h-[186px] w-[186px] max-md:px-5">
+
+
+        </div>
+        <div className="flex lg:gap-24 gap-5 justify-start py-5 font-bold text-center capitalize max-md:flex-wrap max-md:max-w-full">
+          
+          
+          <div className="flex flex-col justify-start p-6 bg-white rounded border-2 border-black border-solid h-[186px] w-[186px] max-md:px-5">
             <img
               src="/mongodb_logo_icon_248434.png"
               alt="mongodb"
-              className="mt-4 w-4/5 h-4/5 pl-4"
+              className="mt-2 pl-4 w-4/5 h-4/5"
             />
-            <div className="mt-8">MongoDB</div>
+            <div className="mt-2">MongoDB</div>
           </div>
         </div>
       </div>
