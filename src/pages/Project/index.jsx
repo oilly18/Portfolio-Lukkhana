@@ -19,7 +19,7 @@ const Project = () => {
               <div className="flex flex-col w-6/12 h-full border border-white mt-10">
                 <a href="https://mutayloo.vercel.app/" target="_blank">
                   <img
-                    src="../../../public/MutayLoo.png"
+                    src="/MutayLoo.png"
                     alt="mutayloo"
                     className="w-full h-full"
                   />
